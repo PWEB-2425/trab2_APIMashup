@@ -27,7 +27,7 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
 
 - Registo e login de utilizador (password encriptada)
 - Proteção de rotas (apenas autenticados podem pesquisar)
-- Pesquisa de termos (cidade, país, artista, etc)
+- Pesquisa de termos (cidade, país)
 - Consulta a duas APIs externas (clima e resumo)
 - Histórico de pesquisas apresentado na dashboard
 - Logout seguro
