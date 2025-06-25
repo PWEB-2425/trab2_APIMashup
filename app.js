@@ -6,7 +6,7 @@ const LocalStrategy = require('passport-local').Strategy;
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const MongoStore = require('connect-mongo');
-const User = require('./models/user');
+const User = require('./models/User');
 
 const authRoutes = require('./routes/auth');
 const apiRoutes = require('./routes/api');
