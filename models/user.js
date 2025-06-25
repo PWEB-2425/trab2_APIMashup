@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const userSchema = new mongoose.Schema({
   username: { type: String, unique: true, required: true },
   password: { type: String, required: true },
@@ -11,5 +12,6 @@ const userSchema = new mongoose.Schema({
   ]
 });
 
+// ESTA É A LINHA CERTA, resolve o teu erro!
+module.exports = mongoose.models.User || mongoose.model('User', userSchema);
 
-module.exports = mongoose.model('User', userSchema);
