@@ -37,29 +37,21 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
 
 ├── /models
 │ └── User.js
-
-├── node_modules
-
-├── public
+├── /node_modules
+├── /public
 │ ├── index.html
 │ ├── dashboard.html
 │ ├── style.css
 │ └── script.js
-
 ├── /routes
 │ ├── auth.js
 │ └── api.js
-
+├── /views
 ├── .env
-
-├── .gitignore~
-
+├── .gitignore
 ├── README.md
-
-├── app.ja
-
+├── app.js
 ├── package-lock.json
-
 ├── package.json
 
 ## Instalação e Execução Local
