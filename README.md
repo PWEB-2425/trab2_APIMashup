@@ -35,18 +35,18 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
 
 ## Estrutura do Projeto
 
-├── /models
-│ └── User.js
-├── /node_modules
-├── /public
-│ ├── index.html
-│ ├── dashboard.html
-│ ├── style.css
-│ └── script.js
-├── /routes
-│ ├── auth.js
-│ └── api.js
-├── /views
+├── models
+│   └── User.js
+├── node_modules
+├── public
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── style.css
+│   └── script.js
+├── routes
+│   ├── auth.js
+│   └── api.js
+├── views
 ├── .env
 ├── .gitignore
 ├── README.md
@@ -54,12 +54,12 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
 ├── package-lock.json
 ├── package.json
 
+
 ## Instalação e Execução Local
 
 1. **Clonar o repositório**
 
    git clone https://github.com/PWEB-2425/trab2_APIMashup.git
-   cd trabalho2-mashup
 
 2. **Instalar dependências**
 
@@ -70,7 +70,9 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
    **MONGODB_URI**=mongodb+srv://chugo:1234@cluster0.o1zn32x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
    **SESSION_SECRET**=porco
+
    **API_KEY_OPENWEATHERMAP**=edcb0a53a63fd2cc20d79e6f3a28bef2
+
    **API_KEY_UNSPLASH**=o9d6Z4_2tzKGaYhPtAphmZQoUGX2V7LJYY4fr44dROg
 
 4. **Correr a aplicação localmente**
