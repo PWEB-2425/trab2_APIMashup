@@ -4,7 +4,7 @@ Trabalho Prático #2 – API Mashup
 
 **Autores:**  
 - Diogo Neto (29510)
-- [Nome do colega, se aplicável]
+- Hugo Carvalho (31791)
 
 ## Descrição
 
@@ -34,20 +34,33 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
 - Interface moderna e responsiva
 
 ## Estrutura do Projeto
-├── app.js
-├── package.json
-├── .env.example
+
 ├── /models
 │ └── User.js
-├── /routes
-│ ├── auth.js
-│ └── api.js
-├── /public
+
+├── node_modules
+
+├── public
 │ ├── index.html
 │ ├── dashboard.html
 │ ├── style.css
 │ └── script.js
 
+├── /routes
+│ ├── auth.js
+│ └── api.js
+
+├── .env
+
+├── .gitignore~
+
+├── README.md
+
+├── app.ja
+
+├── package-lock.json
+
+├── package.json
 
 ## Instalação e Execução Local
 
@@ -58,25 +71,27 @@ O histórico de pesquisas é guardado em MongoDB, associado a cada utilizador au
 
 2. **Instalar dependências**
 
-npm install
+   npm install
 
 3. **Configurar variáveis de ambiente**
 
-**MONGODB_URI**=mongodb+srv://chugo:1234@cluster0.o1zn32x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-**SESSION_SECRET**=porco
-**API_KEY_OPENWEATHERMAP**=edcb0a53a63fd2cc20d79e6f3a28bef2
-**API_KEY_UNSPLASH**=o9d6Z4_2tzKGaYhPtAphmZQoUGX2V7LJYY4fr44dROg
+   **MONGODB_URI**=mongodb+srv://chugo:1234@cluster0.o1zn32x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+   **SESSION_SECRET**=porco
+   **API_KEY_OPENWEATHERMAP**=edcb0a53a63fd2cc20d79e6f3a28bef2
+   **API_KEY_UNSPLASH**=o9d6Z4_2tzKGaYhPtAphmZQoUGX2V7LJYY4fr44dROg
 
 4. **Correr a aplicação localmente**
 
-npm start
+   npm start
 
-ACEDE EM: http://localhost:3000
+   ACEDE EM: http://localhost:3000
 
 
 ## Deploy
 
-O projeto está disponível online em: https://trab2-apimashup.onrender.com
+O projeto está disponível online em: 
+https://trab2-apimashup.onrender.com
 
 ## Como usar
 
