@@ -92,7 +92,7 @@ Regista-te com um nome de utilizador e password.
 
 Faz login.
 
-Pesquisa pelo nome de uma cidade, país, etc.
+Pesquisa pelo nome de uma cidade, país.
 
 Vê o clima atual e o resumo da Wikipedia.
 
